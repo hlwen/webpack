@@ -1,0 +1,26 @@
+{
+  "name": "webpack_demo",
+  "version": "1.0.0",
+  "description": "一个简单的示例",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "style-loader": "^0.13.0",
+    "css-loader": "^0.23.0",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "react": ">=0.14.2",
+    "react-dom": ">=0.14.2"
+  },
+  "scripts": {
+    "test": "test",
+    "hot": "webpack-dev-server --inline --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
